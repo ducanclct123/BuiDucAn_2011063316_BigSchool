@@ -13,7 +13,7 @@ namespace BuiDucAn_2011063316.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202303111243223_PopulateCategoryTable"; }
+            get { return "202303221231536_PopulateCategoryTable"; }
         }
         
         string IMigrationMetadata.Source

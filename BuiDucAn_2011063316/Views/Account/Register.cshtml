@@ -25,6 +25,12 @@
             </div>
         </div>
         <div class="row">
+            @Html.LabelFor(m => m.Name, new { @class = "col-md-2 col-form-label" })
+            <div class="col-md-10">
+                @Html.PasswordFor(m => m.Name, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="row">
             @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 col-form-label" })
             <div class="col-md-10">
                 @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
